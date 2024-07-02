@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.MovieAppProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#373A40</item>
+    </style>
+    <style name="Theme.MovieAppProject" parent="Base.Theme.MovieAppProject" />
+    <style name="roundedImageRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Floating" parent="Widget.Design.FloatingActionButton">
+        <item name="android:foreground">@drawable/floating_background</item>
+    </style>
+</resources>
